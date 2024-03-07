@@ -10,8 +10,8 @@ function App() {
 
   return (
     <BrowserRouter>
-    <div className='app'>
     <Header/>
+    <div className='app'>
     <div className='body'>
       <div className="sidebar">
     <Sidebar/>
