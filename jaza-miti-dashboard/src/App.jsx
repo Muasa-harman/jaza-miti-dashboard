@@ -20,10 +20,6 @@ function App() {
     <Dashboard/>
 
       </div>
-
-    {/* <Routes>
-      <Route path='/' element={<Dashboard/>}/>
-    </Routes> */}
     </div>
     </div>
     </BrowserRouter>
