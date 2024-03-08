@@ -24,8 +24,8 @@ const Dashboard = () => {
           </div>
          </div>
          <div className="cards">
-          <Card/>
-          <Card/>
+          {/* <Card/> */}
+          {/* <Card/> */}
           </div>
          </div>
          <div className="counties">
