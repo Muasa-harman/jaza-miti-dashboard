@@ -32,7 +32,7 @@ const Dashboard = () => {
          <div className="counties">
          <div className='title'>
         <h4 className='lead'>County by Rank</h4>
-        <span>View More</span>
+        <span style={{color:"green",marginTop:"15px" }}>View More</span>
         <div className="">
         <Company company={'Embu'} total={200000}/>
         <Company company={'Nairobi'} total={200000}/>
