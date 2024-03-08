@@ -3,6 +3,7 @@ import Nav from "../components/Nav/Navbar"
 import Leaderboard from "../components/leaderboard/Leaderboard"
 import "./Dashboard.scss"
 import Card from '../components/card/Card';
+import Company from '../Company/Company';
 
 const Dashboard = () => {
   return (
@@ -32,6 +33,17 @@ const Dashboard = () => {
          <div className='title'>
         <h4 className='lead'>County by Rank</h4>
         <span>View More</span>
+        <div className="">
+        <Company company={'Embu'} total={200000}/>
+        <Company company={'Nairobi'} total={200000}/>
+        <Company company={'Mombasa'} total={200000}/>
+        <Company company={'Kisumu'} total={200000}/>
+        <Company company={'Kajiado'} total={200000}/>
+        <Company company={'Machacos'} total={200000}/>
+        <Company company={'Makueni'} total={200000}/>
+        <Company company={'Kericho'} total={200000}/>
+        <Company company={'Trans-Nzoia'} total={200000}/>
+        </div>
       </div>
          </div>
         </div>
