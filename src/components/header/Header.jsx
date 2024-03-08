@@ -12,7 +12,7 @@ function Header() {
         <p>
           kenya water towers agency
         </p>
-          <image src={Logos} alt=""/>
+          {/* <image src={Logos} alt=""/> */}
       </div>
       <div className='right'>
         <div className='notification'>
