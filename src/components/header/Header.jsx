@@ -3,16 +3,15 @@ import Avatar from '@mui/material/Avatar';
 import { lightGreen } from '@mui/material/colors';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import './Header.scss';
-// import  Logos from "/home/donfiles/Downloads/kwta.png"
+import  Logos from "../../assets/kwta.png"
 
 function Header() {
   return (
     <div className='header'>
       <div className='left'>
         <p>
-          kenya water towers agency
+          <img src={Logos} style={{height: "35px"}} alt="kenya water towers agency" />
         </p>
-          {/* <image src={Logos} alt=""/> */}
       </div>
       <div className='right'>
         <div className='notification'>
